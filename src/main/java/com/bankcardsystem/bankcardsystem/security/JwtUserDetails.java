@@ -14,9 +14,7 @@ import java.util.List;
 @Data
 @AllArgsConstructor
 public class JwtUserDetails implements UserDetails {
-
-    //TODO: сделать логику для этого класса
-
+    
     private Long id;
     private String email;
     private String password;
